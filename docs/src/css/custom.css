@@ -1,0 +1,52 @@
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #44bf22;
+  --ifm-color-primary-dark: #3dac1f;
+  --ifm-color-primary-darker: #3aa21d;
+  --ifm-color-primary-darkest: #308618;
+  --ifm-color-primary-light: #4bd225;
+  --ifm-color-primary-lighter: #50d92a;
+  --ifm-color-primary-lightest: #67de46;
+  --ifm-code-font-size: 95%;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgb(72, 77, 91);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+.hero__title, .hero__subtitle {
+  color: white;
+}
+
+.admonition.admonition-caution, .admonition.admonition-caution .admonition-icon * {
+  color: rgb(28, 30, 33);
+  fill: rgb(28, 30, 33);
+}
+
+.admonition.admonition-info, .admonition.admonition-info .admonition-icon * {
+  color: rgb(28, 30, 33);
+  fill: rgb(28, 30, 33);
+}
+
+main div.col-12 p:first-child {
+  padding-top: 3em;
+}
+
+main div.col-12 img {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+main div.col-12 p:last-child {
+  padding-bottom: 3em;
+}

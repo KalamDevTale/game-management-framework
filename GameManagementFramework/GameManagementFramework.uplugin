@@ -1,0 +1,29 @@
+{
+  "FileVersion": 3,
+  "Version": 10000,
+  "VersionName": "Unversioned",
+  "FriendlyName": "Game Management Framework",
+  "Description": "Unreal Engine plugin for building subsystems in blueprints, asynchronous tasks in synchronous code, and loading screens.",
+  "Category": "Other",
+  "CreatedBy": "Redpoint Games",
+  "CreatedByURL": "https://redpoint.games/",
+  "DocsURL": "https://github.com/RedpointArchive/game-management-framework",
+  "MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/631d5ee26def4ec69565285b9889798a",
+  "SupportURL": "https://github.com/RedpointArchive/game-management-framework",
+  "CanContainContent": false,
+  "IsBetaVersion": false,
+  "IsExperimentalVersion": false,
+  "Installed": false,
+  "Modules": [
+    {
+      "Name": "GameManagementFramework",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "GameManagementFrameworkEditor",
+      "Type": "UncookedOnly",
+      "LoadingPhase": "Default"
+    }
+  ]
+}
